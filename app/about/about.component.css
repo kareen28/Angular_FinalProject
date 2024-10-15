@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.project-box {
+    flex: 0 1 45%; /* כדי שיהיה מרווח בין הריבועים */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+
+}
+
+.project-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.about-us {
+    display: flex;
+    width: 222.5%;
+}
+.about-box{
+    flex: 0 1 45%; /* כדי שיהיה מרווח בין הריבועים */
+    background-color: #9a206d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center ;
+}
+/* your-component.component.css */
+.about-box {
+    flex: 0 1 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-mode {
+    background-color: #333; /* Adjust the dark mode background color */
+  }/* your-component.component.css */
+.about-box {
+    flex: 0 1 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-mode {
+    background-color: #333; /* Adjust the dark mode background color */
+  }
+  .dark{
+    color: black;
+    background-color: white;
+    text-align: center 
+}
+.bright{
+    color: white;
+    background-color: black;
+    text-align:center;
+
+}
+.project-image{
+  width: 55;
+  height: 55;
+  
+  }

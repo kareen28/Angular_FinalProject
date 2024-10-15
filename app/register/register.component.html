@@ -1,0 +1,31 @@
+<div class="col-4 p-5">
+    <h1> Sign Up </h1>
+    <form [formGroup]="registerForm" (ngSubmit)="register()">
+        <div class="form-group">
+            <label>name:</label>
+            <input type="text" class="form-control" formControlName="name">
+            <div style="color: red;" *ngIf="!registerForm.controls['name']?.valid && (registerForm.controls['name']?.dirty || registerForm.controls['name']?.touched)">invalid name</div>
+        </div>
+        <div class="form-group">
+            <label>email:</label>
+            <input type="email" class="form-control" formControlName="email">
+            <div style="color: red;" *ngIf="!registerForm.controls['email']?.valid && (registerForm.controls['email']?.dirty || registerForm.controls['email']?.touched)">invalid mail</div>
+        </div>
+        <div class="form-group">
+            <label>password:</label>
+            <input type="password" class="form-control" formControlName="password">
+            <div style="color: red;" *ngIf="!registerForm.controls['password']?.valid && (registerForm.controls['password']?.dirty || registerForm.controls['password']?.touched)">invalid password</div>
+        </div>
+        <div class="form-group">
+            <label>gender:</label> <br>
+            <input type="radio" value="male" formControlName="gender" checked>
+            <label>Male</label>
+            <br>
+            <input type="radio" value="female" formControlName="gender">
+            <label>Female</label>
+            <div style="color: red;" *ngIf="!registerForm.controls['gender']">invalid gender</div>
+        </div>
+        <br>
+        <button type="submit" [disabled]="!registerForm.valid" class="btn btn-primary">Register</button>
+    </form>
+</div>

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "lala",
+      "email": "lala@gmail.com",
+      "password": "12345678",
+      "gender": "female",
+      "dateofbirthday": "13/10/2000",
+      "image": "/assets/f.png"
+    },
+    {
+      "name": "Moshi",
+      "email": "moshe@gmail.com",
+      "password": "12345678",
+      "gender": "male",
+      "dateofbirthday": "6/6/1999",
+      "image": "/assets/user.jpg"
+    },
+    {
+      "id": "b0f7",
+      "email": "bubu@gmail.com",
+      "password": "12341234",
+      "name": "bubu",
+      "dateofbirth": "2020-01-01",
+      "gender": "male",
+      "image": "/assets/user.jpg"
+    }
+  ]
+}

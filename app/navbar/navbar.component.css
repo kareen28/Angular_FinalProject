@@ -1,0 +1,33 @@
+/* Add a black background color to the top navigation */
+.na {
+  background-color:black;
+  z-index: 999;
+  width: 100%;
+  height: 55px;
+}
+
+
+a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: black;
+
+}
+
+ a:hover {
+  background-color: #ddd;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration-line:underline;
+}
+
+
+
+
